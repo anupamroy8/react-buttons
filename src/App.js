@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Heading from "./components/Heading";
 
+
 const data = [
   {
     heading: "Button types",
@@ -33,8 +34,9 @@ const data = [
   },
 ];
 
+
 function App() {
-return data.map((section) => <Heading {...section}/> )
+return data.map((section) => <Heading {...section}/> );
 }
 
 export default App;
