@@ -1,38 +1,52 @@
-.App {
+body {
   text-align: center;
+  margin: 0 auto;
+  color: #2c17a5;
+  font-size: 24px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 28px;
+  margin: 10px auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* My CSS */
+.flex{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.solid{
+  color: #ffffff;
+  background-color: #213667;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.outlined{
+  border: 1px solid #213667;
+}
+.flat{
+  border: none;
+}
+.outline{
+  outline: 1px solid #213667;
+}
+.small{
+  padding: 10px 30px;
+  font-size: 16px;
+}
+.medium{
+  padding: 20px 40px;
+  font-size: 20px;
+}
+.large{
+  padding: 30px 80px;
+}
+.round {
+  border: 1px solid blue;
+}
+svg{
+  font-size: 10px;
+}
+.heading-style {
+  padding: 20px;
+  margin: 30px 0;
+  background-color: rgb(255, 243, 71);
 }
